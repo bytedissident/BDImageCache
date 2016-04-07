@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6590F0F61CB6080100B89CBB /* BDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6590F0F51CB6080100B89CBB /* BDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6590F0FD1CB6080100B89CBB /* BDImageCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6590F0F21CB6080100B89CBB /* BDImageCache.framework */; };
+		6590F1021CB6080100B89CBB /* BDImageCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590F1011CB6080100B89CBB /* BDImageCacheTests.swift */; };
+		D7E408A50D2B66AB3971C1EC /* Pods_BDImageCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D7E488B3CAED619CDCDC3 /* Pods_BDImageCache.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6590F0FE1CB6080100B89CBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6590F0E91CB6080100B89CBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6590F0F11CB6080100B89CBB;
+			remoteInfo = BDImageCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6590F0F21CB6080100B89CBB /* BDImageCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BDImageCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6590F0F51CB6080100B89CBB /* BDImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDImageCache.h; sourceTree = "<group>"; };
+		6590F0F71CB6080100B89CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6590F0FC1CB6080100B89CBB /* BDImageCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDImageCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6590F1011CB6080100B89CBB /* BDImageCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDImageCacheTests.swift; sourceTree = "<group>"; };
+		6590F1031CB6080100B89CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0ECB07B29ACCA0584AA073 /* Pods-BDImageCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDImageCache.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDImageCache/Pods-BDImageCache.release.xcconfig"; sourceTree = "<group>"; };
+		E14D7E488B3CAED619CDCDC3 /* Pods_BDImageCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDImageCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA43830C2902343F00A73002 /* Pods-BDImageCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDImageCache.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDImageCache/Pods-BDImageCache.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6590F0EE1CB6080100B89CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E408A50D2B66AB3971C1EC /* Pods_BDImageCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6590F0F91CB6080100B89CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6590F0FD1CB6080100B89CBB /* BDImageCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FC88F4887E96CE7E9E8298A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E14D7E488B3CAED619CDCDC3 /* Pods_BDImageCache.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6590F0E81CB6080100B89CBB = {
+			isa = PBXGroup;
+			children = (
+				6590F0F41CB6080100B89CBB /* BDImageCache */,
+				6590F1001CB6080100B89CBB /* BDImageCacheTests */,
+				6590F0F31CB6080100B89CBB /* Products */,
+				6924AEE9E8BFC45D279EE052 /* Pods */,
+				5FC88F4887E96CE7E9E8298A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6590F0F31CB6080100B89CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6590F0F21CB6080100B89CBB /* BDImageCache.framework */,
+				6590F0FC1CB6080100B89CBB /* BDImageCacheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6590F0F41CB6080100B89CBB /* BDImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				6590F0F51CB6080100B89CBB /* BDImageCache.h */,
+				6590F0F71CB6080100B89CBB /* Info.plist */,
+			);
+			path = BDImageCache;
+			sourceTree = "<group>";
+		};
+		6590F1001CB6080100B89CBB /* BDImageCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				6590F1011CB6080100B89CBB /* BDImageCacheTests.swift */,
+				6590F1031CB6080100B89CBB /* Info.plist */,
+			);
+			path = BDImageCacheTests;
+			sourceTree = "<group>";
+		};
+		6924AEE9E8BFC45D279EE052 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA43830C2902343F00A73002 /* Pods-BDImageCache.debug.xcconfig */,
+				DD0ECB07B29ACCA0584AA073 /* Pods-BDImageCache.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6590F0EF1CB6080100B89CBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6590F0F61CB6080100B89CBB /* BDImageCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6590F0F11CB6080100B89CBB /* BDImageCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6590F1061CB6080100B89CBB /* Build configuration list for PBXNativeTarget "BDImageCache" */;
+			buildPhases = (
+				EE621B23059FB37975204CB5 /* Check Pods Manifest.lock */,
+				6590F0ED1CB6080100B89CBB /* Sources */,
+				6590F0EE1CB6080100B89CBB /* Frameworks */,
+				6590F0EF1CB6080100B89CBB /* Headers */,
+				6590F0F01CB6080100B89CBB /* Resources */,
+				E7C65FAD1F5B61C9305CDCFD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDImageCache;
+			productName = BDImageCache;
+			productReference = 6590F0F21CB6080100B89CBB /* BDImageCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6590F0FB1CB6080100B89CBB /* BDImageCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6590F1091CB6080100B89CBB /* Build configuration list for PBXNativeTarget "BDImageCacheTests" */;
+			buildPhases = (
+				6590F0F81CB6080100B89CBB /* Sources */,
+				6590F0F91CB6080100B89CBB /* Frameworks */,
+				6590F0FA1CB6080100B89CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6590F0FF1CB6080100B89CBB /* PBXTargetDependency */,
+			);
+			name = BDImageCacheTests;
+			productName = BDImageCacheTests;
+			productReference = 6590F0FC1CB6080100B89CBB /* BDImageCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6590F0E91CB6080100B89CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bytedissident;
+				TargetAttributes = {
+					6590F0F11CB6080100B89CBB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6590F0FB1CB6080100B89CBB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6590F0EC1CB6080100B89CBB /* Build configuration list for PBXProject "BDImageCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6590F0E81CB6080100B89CBB;
+			productRefGroup = 6590F0F31CB6080100B89CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6590F0F11CB6080100B89CBB /* BDImageCache */,
+				6590F0FB1CB6080100B89CBB /* BDImageCacheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6590F0F01CB6080100B89CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6590F0FA1CB6080100B89CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E7C65FAD1F5B61C9305CDCFD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BDImageCache/Pods-BDImageCache-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE621B23059FB37975204CB5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6590F0ED1CB6080100B89CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6590F0F81CB6080100B89CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6590F1021CB6080100B89CBB /* BDImageCacheTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6590F0FF1CB6080100B89CBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6590F0F11CB6080100B89CBB /* BDImageCache */;
+			targetProxy = 6590F0FE1CB6080100B89CBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6590F1041CB6080100B89CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6590F1051CB6080100B89CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6590F1071CB6080100B89CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA43830C2902343F00A73002 /* Pods-BDImageCache.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BDImageCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedissident.imagecache.BDImageCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6590F1081CB6080100B89CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0ECB07B29ACCA0584AA073 /* Pods-BDImageCache.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BDImageCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedissident.imagecache.BDImageCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6590F10A1CB6080100B89CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BDImageCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedissident.imagecache.BDImageCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6590F10B1CB6080100B89CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BDImageCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedissident.imagecache.BDImageCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6590F0EC1CB6080100B89CBB /* Build configuration list for PBXProject "BDImageCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6590F1041CB6080100B89CBB /* Debug */,
+				6590F1051CB6080100B89CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6590F1061CB6080100B89CBB /* Build configuration list for PBXNativeTarget "BDImageCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6590F1071CB6080100B89CBB /* Debug */,
+				6590F1081CB6080100B89CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6590F1091CB6080100B89CBB /* Build configuration list for PBXNativeTarget "BDImageCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6590F10A1CB6080100B89CBB /* Debug */,
+				6590F10B1CB6080100B89CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6590F0E91CB6080100B89CBB /* Project object */;
+}
