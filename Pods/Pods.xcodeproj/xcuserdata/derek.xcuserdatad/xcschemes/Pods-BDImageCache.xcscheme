@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '606FE9094616990C1C84CC3E'
+               BlueprintIdentifier = 'FCA04A6B64D23EE3E0E45837'
                BlueprintName = 'Pods-BDImageCache'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_BDImageCache.framework'>

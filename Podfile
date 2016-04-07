@@ -2,7 +2,7 @@
  use_frameworks!
 
 target 'BDImageCache' do
-    pod 'FLAnimatedImage'
+    pod 'FLAnimatedImage' ,'~> 1.0'
 end
 
 

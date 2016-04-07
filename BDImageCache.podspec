@@ -43,5 +43,5 @@ s.dependency 'FLAnimatedImage', '~> 1.0'
 s.source_files = "BDImageCache/**/*.{swift}"
 
 # 9
-s.resources = "BDImageCache/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "BDImageCache/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
