@@ -1,6 +1,0 @@
-framework module Pods_BDImageCache {
-  umbrella header "Pods-BDImageCache-umbrella.h"
-
-  export *
-  module * { export * }
-}
