@@ -12,7 +12,7 @@ extension NSCache {
     class var sharedInstance : NSCache {
         struct Static {
             static let instance : NSCache = NSCache()
-        }
+        } 
         return Static.instance
     }
 }
